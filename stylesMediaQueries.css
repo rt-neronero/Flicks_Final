@@ -1,0 +1,20 @@
+@media (max-width: 1100px) {
+    .img-map {
+        width: 880px;
+    }
+
+    td img {
+        width: 230px; height: 230px;
+    }
+}
+
+@media (max-width: 910px) {
+    .img-map {
+        width: 480px;
+    }
+
+    .table-container td img {
+        max-width: 125px; max-height: 125px;
+    }
+
+}

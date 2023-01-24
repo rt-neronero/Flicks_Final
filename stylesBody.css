@@ -1,0 +1,192 @@
+body {
+    background-image: url(images/background.jpg), url(https://media.istockphoto.com/id/1271522601/photo/pop-corn-and-on-red-armchair-cinema.jpg?s=612x612&w=0&k=20&c=XwQxmfrHb-OwV5onPUW5ApB4RaGBK7poSIzZj4q_N_g=);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+hr {
+    color: var(--clr-darkblue);
+}
+
+.content-container {
+    margin: 30px auto;
+    max-width: 95%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.movie-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 10px 20px;
+    border: 1px solid black;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.1s ease-in-out;
+}
+/* ----------------------------------about------------------------- */
+.about {
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #323232;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: #ffffff;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: #db3a34;
+}
+.about-text p{
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+button{
+    background: #db3a34;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #db3a34;
+    cursor: pointer;
+}
+/* ----------------------footer------------------ */
+.footer{
+    background: #177e89;
+    color: #323232;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #323232;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+@media screen and (max-width:768px) {
+    .main{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .about-text{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .about img{
+        float: right;
+        width: 100%;
+        display: block;
+        margin:auto;
+    }
+    .about-text h1{
+        text-align: center;
+    }
+    .about-text h5{
+        text-align: center;
+    }
+    .about-text p{
+        text-align: center;
+    }
+    button{
+        text-align: center;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    
+}
+@media only screen and (max-width:600px){
+    .row{
+        text-align: center;
+    }
+    .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+        flex-basis: 100%;
+    }
+}

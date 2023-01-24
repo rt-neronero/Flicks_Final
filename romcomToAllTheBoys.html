@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/logo1.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> <!-- Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="stylesMediaQueries.css">
+    <title>Movies | Puss in Boots</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#33383e">
+    <a class="navbar-brand" href="index.html"><img src="images/nav.jpg" onmouseover="this.src='images/nav.gif'" onmouseout="this.src='images/nav.jpg'" margin="0"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutUs.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <div class="btn-group active" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="movieList.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false" style="padding-right: 0px">
+              Movies <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link dropdown-toggle" href="movieList.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <h6 class="dropdown-header">Genre</h6>
+              <a class="dropdown-item" href="moviesAction.html">Action</a>
+              <a class="dropdown-item" href="moviesHorror.html">Horror</a>
+              <a class="dropdown-item" href="moviesRomcom.html">Romcom</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="Puss_in_Boots" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#Puss_in_Boots" data-slide-to="0" class="active"></li>
+      <li data-target="#Puss_in_Boots" data-slide-to="1"></li>
+      <li data-target="#Puss_in_Boots" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/romcom/to-all-the-boys/tatbilb1.jpeg" alt="Photo 1 Puss in Boots" width = "1720" height = "720">
+        <div class="carousel-caption">
+          <h3>To All The Boys I've Loved Before</h3>
+          <p>Now Showing!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/romcom/to-all-the-boys/tatbilb2.jpg" alt="Photo 2 Puss in Boots" width = "1720" height = "720">
+        <div class="carousel-caption">
+          <h3>To All The Boys I've Loved Before</h3>
+          <p>Now Showing!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/romcom/to-all-the-boys/tatbilb3.jpg" alt="Photo 3 Puss in Boots" width = "1720" height = "720">
+        <div class="carousel-caption">
+          <h3>To All The Boys I've Loved Before</h3>
+          <p>Now Showing!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#Puss_in_Boots" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#Puss_in_Boots" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <br>
+
+  <h1 align = "center">Get A Seat Now!</h1>
+  <center><img src = "images/Theater_Layout.jpg" alt = "Layout" usemap="#Layout"></center>
+  <map name = "Layout">
+    <!-- A -->
+    <area shape="rect" coords="27, 85, 58, 138" alt="A1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 85, 89, 138" alt="A2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 85, 121, 138" alt="A3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 85, 154, 138" alt="A4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 85, 185, 138" alt="A5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 85, 216, 138" alt="A6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 85, 247, 138" alt="A7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 85, 280, 138" alt="A8" href="thankYouPage.html">
+
+    <area shape="rect" coords="312, 85, 344, 138" alt="A9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 85, 375, 138" alt="A10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 85, 407, 138" alt="A11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 85, 440, 138" alt="A12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 85, 472, 138" alt="A13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 85, 502, 138" alt="A14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 85, 534, 138" alt="A15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 85, 567, 138" alt="A16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 85, 598, 138" alt="A17" href="thankYouPage.html">
+
+    <!-- B -->
+    <area shape="rect" coords="27, 139, 58, 187" alt="B1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 139, 89, 187" alt="B2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 139, 121, 187" alt="B3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 139, 154, 187" alt="B4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 139, 185, 187" alt="B5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 139, 216, 187" alt="B6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 139, 247, 187" alt="B7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 139, 280, 187" alt="B8" href="thankYouPage.html">
+
+    <area shape="rect" coords="312, 139, 344, 187" alt="B9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 139, 375, 187" alt="B10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 139, 407, 187" alt="B11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 139, 440, 187" alt="B12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 139, 472, 187" alt="B13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 139, 502, 187" alt="B14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 139, 534, 187" alt="B15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 139, 567, 187" alt="B16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 139, 598, 187" alt="B17" href="thankYouPage.html">
+    <area shape="rect" coords="599, 139, 628, 187" alt="B18" href="thankYouPage.html">
+    <area shape="rect" coords="629, 139, 660, 187" alt="B19" href="thankYouPage.html">
+    <area shape="rect" coords="661, 139, 694, 187" alt="B20" href="thankYouPage.html">
+
+    <!-- C -->
+    <area shape="rect" coords="27, 188, 58, 235" alt="C1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 188, 89, 235" alt="C2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 188, 121, 235" alt="C3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 188, 154, 235" alt="C4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 188, 185, 235" alt="C5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 188, 216, 235" alt="C6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 188, 247, 235" alt="C7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 188, 280, 235" alt="C8" href="thankYouPage.html">
+    
+    <area shape="rect" coords="312, 188, 344, 235" alt="C9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 188, 375, 235" alt="C10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 188, 407, 235" alt="C11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 188, 440, 235" alt="C12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 188, 472, 235" alt="C13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 188, 502, 235" alt="C14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 188, 534, 235" alt="C15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 188, 567, 235" alt="C16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 188, 598, 235" alt="C17" href="thankYouPage.html">
+    <area shape="rect" coords="599, 188, 628, 235" alt="C18" href="thankYouPage.html">
+    <area shape="rect" coords="629, 188, 660, 235" alt="C19" href="thankYouPage.html">
+    <area shape="rect" coords="661, 188, 694, 235" alt="C20" href="thankYouPage.html">
+
+    <!-- D -->
+    <area shape="rect" coords="27, 236, 58, 285" alt="D1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 236, 89, 285" alt="D2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 236, 121, 285" alt="D3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 236, 154, 285" alt="D4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 236, 185, 285" alt="D5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 236, 216, 285" alt="D6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 236, 247, 285" alt="D7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 236, 280, 285" alt="D8" href="thankYouPage.html">
+
+    <area shape="rect" coords="312, 236, 344, 285" alt="D9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 236, 375, 285" alt="D10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 236, 407, 285" alt="D11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 236, 440, 285" alt="D12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 236, 472, 285" alt="D13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 236, 502, 285" alt="D14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 236, 534, 285" alt="D15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 236, 567, 285" alt="D16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 236, 598, 285" alt="D17" href="thankYouPage.html">
+    <area shape="rect" coords="599, 236, 628, 285" alt="D18" href="thankYouPage.html">
+    <area shape="rect" coords="629, 236, 660, 285" alt="D19" href="thankYouPage.html">
+    <area shape="rect" coords="661, 236, 694, 285" alt="D20" href="thankYouPage.html">
+
+    <!-- E -->
+    <area shape="rect" coords="27, 286, 58, 333" alt="E1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 286, 89, 333" alt="E2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 286, 121, 333" alt="E3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 286, 154, 333" alt="E4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 286, 185, 333" alt="E5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 286, 216, 333" alt="E6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 286, 247, 333" alt="E7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 286, 280, 333" alt="E8" href="thankYouPage.html">
+
+    <area shape="rect" coords="312, 286, 344, 333" alt="E9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 286, 375, 333" alt="E10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 286, 407, 333" alt="E11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 286, 440, 333" alt="E12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 286, 472, 333" alt="E13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 286, 502, 333" alt="E14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 286, 534, 333" alt="E15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 286, 567, 333" alt="E16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 286, 598, 333" alt="E17" href="thankYouPage.html">
+    <area shape="rect" coords="599, 286, 628, 333" alt="E18" href="thankYouPage.html">
+    <area shape="rect" coords="629, 286, 660, 333" alt="E19" href="thankYouPage.html">
+    <area shape="rect" coords="661, 286, 694, 333" alt="E20" href="thankYouPage.html">
+
+    <!-- F -->
+    <area shape="rect" coords="27, 334, 58, 384" alt="F1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 334, 89, 384" alt="F2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 334, 121, 384" alt="F3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 334, 154, 384" alt="F4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 334, 185, 384" alt="F5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 334, 216, 384" alt="F6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 334, 247, 384" alt="F7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 334, 280, 384" alt="F8" href="thankYouPage.html">
+
+    <area shape="rect" coords="312, 334, 344, 384" alt="F9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 334, 375, 384" alt="F10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 334, 407, 384" alt="F11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 334, 440, 384" alt="F12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 334, 472, 384" alt="F13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 334, 502, 384" alt="F14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 334, 534, 384" alt="F15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 334, 567, 384" alt="F16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 334, 598, 384" alt="F17" href="thankYouPage.html">
+    <area shape="rect" coords="599, 334, 628, 384" alt="F18" href="thankYouPage.html">
+    <area shape="rect" coords="629, 334, 660, 384" alt="F19" href="thankYouPage.html">
+    <area shape="rect" coords="661, 334, 694, 384" alt="F20" href="thankYouPage.html">
+
+    <!-- G -->
+    <area shape="rect" coords="27, 385, 58, 433" alt="G1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 385, 89, 433" alt="G2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 385, 121, 433" alt="G3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 385, 154, 433" alt="G4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 385, 185, 433" alt="G5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 385, 216, 433" alt="G6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 385, 247, 433" alt="G7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 385, 280, 433" alt="G8" href="thankYouPage.html">
+
+    <area shape="rect" coords="312, 385, 344, 433" alt="G9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 385, 375, 433" alt="G10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 385, 407, 433" alt="G11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 385, 440, 433" alt="G12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 385, 472, 433" alt="G13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 385, 502, 433" alt="G14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 385, 534, 433" alt="G15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 385, 567, 433" alt="G16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 385, 598, 433" alt="G17" href="thankYouPage.html">
+    <area shape="rect" coords="599, 385, 628, 433" alt="G18" href="thankYouPage.html">
+    <area shape="rect" coords="629, 385, 660, 433" alt="G19" href="thankYouPage.html">
+    <area shape="rect" coords="661, 385, 694, 433" alt="G20" href="thankYouPage.html">
+
+    <!-- H -->
+    <area shape="rect" coords="27, 434, 58, 481" alt="H1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 434, 89, 481" alt="H2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 434, 121, 481" alt="H3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 434, 154, 481" alt="H4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 434, 185, 481" alt="H5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 434, 216, 481" alt="H6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 434, 247, 481" alt="H7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 434, 280, 481" alt="H8" href="thankYouPage.html">
+
+    <area shape="rect" coords="312, 434, 344, 481" alt="H9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 434, 375, 481" alt="H10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 434, 407, 481" alt="H11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 434, 440, 481" alt="H12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 434, 472, 481" alt="H13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 434, 502, 481" alt="H14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 434, 534, 481" alt="H15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 434, 567, 481" alt="H16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 434, 598, 481" alt="H17" href="thankYouPage.html">
+    <area shape="rect" coords="599, 434, 628, 481" alt="H18" href="thankYouPage.html">
+    <area shape="rect" coords="629, 434, 660, 481" alt="H19" href="thankYouPage.html">
+    <area shape="rect" coords="661, 434, 694, 481" alt="H20" href="thankYouPage.html">
+
+    <!-- I -->
+    <area shape="rect" coords="27, 482, 58, 530" alt="I1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 482, 89, 530" alt="I2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 482, 121, 530" alt="I3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 482, 154, 530" alt="I4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 482, 185, 530" alt="I5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 482, 216, 530" alt="I6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 482, 247, 530" alt="I7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 482, 280, 530" alt="I8" href="thankYouPage.html">
+
+    <area shape="rect" coords="312, 482, 344, 530" alt="I9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 482, 375, 530" alt="I10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 482, 407, 530" alt="I11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 482, 440, 530" alt="I12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 482, 472, 530" alt="I13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 482, 502, 530" alt="I14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 482, 534, 530" alt="I15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 482, 567, 530" alt="I16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 482, 598, 530" alt="I17" href="thankYouPage.html">
+    <area shape="rect" coords="599, 482, 628, 530" alt="I18" href="thankYouPage.html">
+    <area shape="rect" coords="629, 482, 660, 530" alt="I19" href="thankYouPage.html">
+    <area shape="rect" coords="661, 482, 694, 530" alt="I20" href="thankYouPage.html">
+
+
+    <!-- J -->
+    <area shape="rect" coords="27, 531, 58, 580" alt="J1" href="thankYouPage.html">
+    <area shape="rect" coords="59, 531, 89, 580" alt="J2" href="thankYouPage.html">
+    <area shape="rect" coords="90, 531, 121, 580" alt="J3" href="thankYouPage.html">
+    <area shape="rect" coords="122, 531, 154, 580" alt="J4" href="thankYouPage.html">
+    <area shape="rect" coords="155, 531, 185, 580" alt="J5" href="thankYouPage.html">
+    <area shape="rect" coords="186, 531, 216, 580" alt="J6" href="thankYouPage.html">
+    <area shape="rect" coords="217, 531, 247, 580" alt="J7" href="thankYouPage.html">
+    <area shape="rect" coords="248, 531, 280, 580" alt="J8" href="thankYouPage.html">
+
+    <area shape="rect" coords="312, 531, 344, 580" alt="J9" href="thankYouPage.html">
+    <area shape="rect" coords="345, 531, 375, 580" alt="J10" href="thankYouPage.html">
+    <area shape="rect" coords="376, 531, 407, 580" alt="J11" href="thankYouPage.html">
+    <area shape="rect" coords="408, 531, 440, 580" alt="J12" href="thankYouPage.html">
+    <area shape="rect" coords="441, 531, 472, 580" alt="J13" href="thankYouPage.html">
+    <area shape="rect" coords="473, 531, 502, 580" alt="J14" href="thankYouPage.html">
+    <area shape="rect" coords="503, 531, 534, 580" alt="J15" href="thankYouPage.html">
+    <area shape="rect" coords="535, 531, 567, 580" alt="J16" href="thankYouPage.html">
+    <area shape="rect" coords="568, 531, 598, 580" alt="J17" href="thankYouPage.html">
+    <area shape="rect" coords="599, 531, 628, 580" alt="J18" href="thankYouPage.html">
+    <area shape="rect" coords="629, 531, 660, 580" alt="J19" href="thankYouPage.html">
+    <area shape="rect" coords="661, 531, 694, 580" alt="J20" href="thankYouPage.html">
+  </map>
+  <br>
+</body>
+</html>
